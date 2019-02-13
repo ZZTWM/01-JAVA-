@@ -1,6 +1,6 @@
 package cn.gtmap.operator;
 /**
- * 取模/取余：%
+ * 6、取模/取余：%
  * @author Administrator
  *
  */
