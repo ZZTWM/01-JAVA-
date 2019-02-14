@@ -56,15 +56,15 @@ public class Break02 {
 	 *  	复利：43680 *((1 + 0.2)^1) = 52416
 	 */
 	public static void main(String[] args) {
-		int perYearInvesment = 12000;
-		float rate = 0.2f;
-		int goalMoney = 1000000;
-		int sum = 0;
+		int perYearInvesment = 12000;//每年投入本金
+		float rate = 0.2f;//利率
+		int goalMoney = 1000000;//目标
+		int sum = 0;//产生的收益
 		
 		
 		for (int j = 1; j < 100; j++) {
 			int year = j;
-			float compoundInterestRate = 1;
+			float compoundInterestRate = 1;//复利利率
 			//内层循环控制复利的利率
 			//第一年：12000*(1 + 0.2)^1  
 			//第二年：12000*((1 + 0.2)^2 +(1 + 0.2)^1)
@@ -76,7 +76,7 @@ public class Break02 {
 				
 			}
 			
-			int compoundInterest = (int) (perYearInvesment * compoundInterestRate);
+			int compoundInterest = (int) (perYearInvesment * compoundInterestRate);//复利产生的收益
 			sum = sum + compoundInterest;
 			System.out.println("经过" + year + " 年， 总收入 " + sum);
 			if(sum >= goalMoney){
