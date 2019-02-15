@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Arrays是针对数组的工具类，可以进行 排序，查找，复制填充等功能。 大大提高了开发人员的工作效率。
  *
  */
-public class ArraysTools {
+public class ArraysTools01 {
 	/**
 	 * 1、数组复制
 	 */
