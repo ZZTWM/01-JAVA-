@@ -7,6 +7,6 @@ package cn.gtmap.inherit;
  */
 public class Armor {
 	String name;//名称
-	int price;//价格
+	int price;//价格 
 	int ac;//护甲值
 }
