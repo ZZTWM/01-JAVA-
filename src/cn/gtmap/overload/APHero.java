@@ -8,7 +8,7 @@ public class APHero extends Hero{
 	public void attack(){
 		System.out.println(name + " 进行了一次攻击 ，但是不确定打中谁了");
 	}
-	
+	 
 	//可变数量的参数
 	public void attack(Hero ...heros){
 		for (int i = 0; i < heros.length; i++) {
