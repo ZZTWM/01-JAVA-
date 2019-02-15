@@ -3,7 +3,7 @@ package cn.gtmap.array;
  * 二维数组
  *
  */
-public class TwoDimensionalArray {
+public class TwoDimensionalArray01 {
 	/**
 	 * 初始化二维数组
 	 */
