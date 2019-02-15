@@ -1,5 +1,9 @@
 package cn.gtmap.overload;
 
+/**
+ * 方法重载：练习：治疗
+ *
+ */
 public class Supporter extends Hero {
 	
 	public void heal(){
