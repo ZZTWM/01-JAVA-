@@ -16,13 +16,12 @@ public class Hero {
 		Hero.copyright = "版权由Riot Games公司所有";
 		
 		System.out.println(garen.name);
-		System.out.println(garen.copyright);
+		System.out.println(Hero.copyright);
 		
 		Hero teemo = new Hero();
 		teemo.name = "提莫";
 		System.out.println(teemo.name);
-		System.out.println(teemo.copyright);
-		
+		System.out.println(Hero.copyright);
 	}
 	
 }
