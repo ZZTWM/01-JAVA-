@@ -18,6 +18,8 @@ public class Hero {
 		System.out.println(garen.name);
 		System.out.println(Hero.copyright);
 		
+		garen.copyright = "À¬»ø";
+		
 		Hero teemo = new Hero();
 		teemo.name = "ÌáÄª";
 		System.out.println(teemo.name);
