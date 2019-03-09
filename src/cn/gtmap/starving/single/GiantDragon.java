@@ -16,7 +16,7 @@ public class GiantDragon {
 	//准备一个类属性，指向一个实例化对象。 因为是类属性，所以只有一个
 	private static GiantDragon instance = new GiantDragon();
 	
-	//public static 方法，提供给调用者获取11行定义的对象
+	//public static 方法，提供给调用者获取17行定义的对象
 	public static GiantDragon getInstance(){
 		return instance;
 	}
