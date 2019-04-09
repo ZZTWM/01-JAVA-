@@ -1,7 +1,5 @@
 package cn.gtmap.number_and_string.math_method;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 public class Test07 {
 	
 	// 假如n是合数，必然存在非1的两个约数p1和p2，其中p1<=sqrt(n)，p2>=sqrt(n)。
