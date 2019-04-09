@@ -1,5 +1,7 @@
 package cn.gtmap.number_and_string.math_method;
 
+import org.omg.Messaging.SyncScopeHelper;
+
 public class Test07 {
 	
 	// 假如n是合数，必然存在非1的两个约数p1和p2，其中p1<=sqrt(n)，p2>=sqrt(n)。
@@ -14,6 +16,9 @@ public class Test07 {
 	}
 	
 	public static void main(String[] args) {
+		
+		System.out.println(isPrime(3));
+		
 		int max = 10000 * 1000;
 		int count = 0;
 		for (int i = 1; i <= max; i++) {
@@ -23,6 +28,8 @@ public class Test07 {
 		}
 		
 		System.out.println("一千万以内的质数一共有： " + count);
+		
+		System.out.println(isPrime(2));
 	}
 	
 	
